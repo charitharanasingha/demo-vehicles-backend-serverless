@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser")
 const sls = require("serverless-http");
+const cors = require('cors');
 
 const dealerRouter = require("./dealer/dealer.route");
 const vehicleRouter = require("./vehicle/vehicle.route");
